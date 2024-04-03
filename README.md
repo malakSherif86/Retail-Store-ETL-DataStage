@@ -6,20 +6,20 @@ This project centers on leveraging IBM InfoSphere DataStage to craft efficient E
 
 # Project Steps:
 
-Extraction: Acquiring retail, customer, and product data from the data warehouse.
+**Extraction:** Acquiring retail, customer, and product data from the data warehouse.
 
-Transformation: Enhancing the extracted data by converting customer names to uppercase.
+**Transformation:** Enhancing the extracted data by converting customer names to uppercase.
 
-Loading: Depositing the transformed data into a Retail Data Mart.
+**Loading:** Depositing the transformed data into a Retail Data Mart.
 
-Analysis: Fulfilling various business needs through the Retail Data Mart, such as:
+**Analysis:** Fulfilling various business needs through the Retail Data Mart, such as:
 
 Displaying the count of all transactions for each employee at each store.
 Identifying the customer type that yields the highest profit. For instance, showcasing that "foreign" customer types make 5 transactions while "citizen" customer types make 3 transactions, resulting in the maximum profit by foreign customers. This DataMart is labeled "ACTIVATIONSALES_DATA_MART."
 Awarding bonus equations to customers based on their profit contributions, where Bonus Equation = Annual_Income (in k$) * SpendingScore * 100.
 # Project Files:
 
-DataStage Jobs: Contains the dsx jobs utilized.
-Dataset: The dataset employed in constructing the star schema model.
-Output Files: Output generated from each job.
-Screenshots: Visual documentation of each job.
+**DataStage Jobs:** Contains the dsx jobs utilized.
+**Dataset:** The dataset employed in constructing the star schema model.
+**Output Files:** Output generated from each job.
+**Screenshots:** Visual documentation of each job.
